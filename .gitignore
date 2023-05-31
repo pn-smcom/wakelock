@@ -44,3 +44,6 @@ build/
 .project
 .classpath
 .settings
+
+**/.fvm/**
+!**/.fvm/fvm_config.json

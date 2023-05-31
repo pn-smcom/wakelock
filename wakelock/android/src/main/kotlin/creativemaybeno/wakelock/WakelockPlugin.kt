@@ -38,7 +38,7 @@ class WakelockPlugin : FlutterPlugin, WakelockApi, ActivityAware {
     onDetachedFromActivity()
   }
 
-  override fun toggle(arg: ToggleMessage?) {
+  override fun toggle(arg: ToggleMessage) {
     wakelock!!.toggle(arg!!)
   }
 

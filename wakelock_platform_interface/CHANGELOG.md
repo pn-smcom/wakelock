@@ -1,3 +1,10 @@
+## 0.3.1
+
+* Changed Dart SDK constraint to `>=2.12.0 <4.0.0`.
+* Bumped version of `meta` dependency to `^1.9.1`.
+* Bumped version of `flutter_lints` dependency to `^2.0.1`.
+* Added fvm support files
+
 ## 0.3.0
 
 * Upgraded version to indicate breaking method channel codec changes published with `0.2.1+3`.
