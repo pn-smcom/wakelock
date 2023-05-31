@@ -1,3 +1,11 @@
+## 0.6.3
+
+* Changed Dart SDK constraint to `>=2.12.0 <4.0.0`.
+* Bumped version of `meta` dependency to `^1.9.1`.
+* Bumped version of `pigeons` dependency to `^10.0.0`.
+* Bumped version of `flutter_lints` dependency to `^2.0.1`.
+* Added fvm support files
+
 ## 0.6.2
 
 * Fixed Android build issues.

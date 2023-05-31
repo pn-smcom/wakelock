@@ -1,3 +1,8 @@
+## 0.4.1
+
+* Changed Dart SDK constraint to `>=2.12.0 <4.0.0`.
+* Added fvm support files
+
 ## 0.4.0
 
 * Bumped to depend on latest platform interface.
