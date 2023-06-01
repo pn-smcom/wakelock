@@ -3,6 +3,7 @@ description: >2-
   Windows platform implementation of the wakelock_platform_interface for the wakelock plugin.
 version: 0.2.2
 repository: https://github.com/creativecreatorormaybenot/wakelock/tree/main/wakelock_windows
+publish_to: none
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
@@ -12,7 +13,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  wakelock_platform_interface: ^0.3.0
+  wakelock_platform_interface:
+    git: 
+      url: https://github.com/pn-smcom/wakelock
+      path: wakelock_platform_interface
   # win32 is compatible across v4 and v5 for Win32 only (not COM)
   win32: ">=4.0.0 <6.0.0"
 
