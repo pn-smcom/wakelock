@@ -19,7 +19,7 @@ dependencies:
     git: 
       url: https://github.com/pn-smcom/wakelock
       path: wakelock_platform_interface
-      ref: dependency_changes2
+      ref: dependency-changes2
 
 dev_dependencies:
   flutter_test:

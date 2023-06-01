@@ -20,22 +20,22 @@ dependencies:
     git: 
       url: https://github.com/pn-smcom/wakelock
       path: wakelock_macos
-      ref: dependency_changes2
+      ref: dependency-changes2
   wakelock_platform_interface:
     git: 
       url: https://github.com/pn-smcom/wakelock
       path: wakelock_platform_interface
-      ref: dependency_changes2
+      ref: dependency-changes2
   wakelock_web:
     git: 
       url: https://github.com/pn-smcom/wakelock
       path: wakelock_web
-      ref: dependency_changes2
+      ref: dependency-changes2
   wakelock_windows:
     git: 
       url: https://github.com/pn-smcom/wakelock
       path: wakelock_windows
-      ref: dependency_changes2  
+      ref: dependency-changes2  
 
 dev_dependencies:
   flutter_test:
